@@ -14,3 +14,7 @@ This is a basic Selenium test in Java using ChromeDriver.
 - Chrome browser
 - ChromeDriver (compatible with your Chrome version)
 - Selenium Java libraries (version 4.17.0 used here)
+
+### Notes
+- Update the path to `chromedriver.exe` in the Java file if needed.
+- Download Selenium `.jar` files from [selenium.dev](https://www.selenium.dev/downloads/) and place them in a `lib/` folder.
