@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Hide Demo</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div align="center">
+        Welcome to the registration process
+        <form>
+            Update this: <input type="text" name="username" value="Hello">
+            <br>
+        </form>
+    </div>
+    
+    <!-- Corrected div placement -->
+    <div id="data"></div>
+
+    <script>
+        $(document).ready(function() {
+            // Event listener for changes in the input field
+            $("input").on("change", function() {
+                var str = $(this).val();  // Get the new value of the input field
+                $("#data").text(str);     // Update the content of the div with id="data"
+            });
+        });
+    </script>
+</body>
+</html>
