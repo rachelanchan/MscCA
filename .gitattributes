@@ -1,0 +1,19 @@
+# === Prioritize Source Code Languages ===
+*.java linguist-language=Java
+*.cpp linguist-language=C++
+*.py linguist-language=Python
+
+# === Ignore Non-Code / Generated Files ===
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.js linguist-detectable=false
+*.xml linguist-detectable=false
+*.json linguist-detectable=false
+*.md linguist-detectable=false
+*.pdf linguist-detectable=false
+*.csv linguist-detectable=false
+
+# === Treat class files and binaries as binary, not code ===
+*.class binary
+*.out binary
+*.jar binary
