@@ -1,0 +1,43 @@
+/*
+Date: 1 June, 2024
+Author: Rachel Anchan
+
+WAP to accept and sort array elements.
+*/
+
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+	clrscr();
+	int a[10],i, temp=0 ;
+
+	cout<<"Enter the array elements: "<<endl;
+
+	for (i=0; i<10; i++)
+	{
+			cin>>a[i];
+	}
+
+	for(i=0;i<10;i++)
+	{
+		for(int j=i; j<10;j++)
+		{
+			if(a[i]>a[j])
+			{
+				temp=a[i];
+				a[i]=a[j];
+				a[j]=temp;
+			}
+		}
+	}
+	cout<<"The array elements: "<<endl;
+
+	for (int j=0; j<10; j++)
+	{
+			cout<<" "<<a[j];
+ 
+	}
+	getch();
+}
+

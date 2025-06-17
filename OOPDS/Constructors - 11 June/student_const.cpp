@@ -1,0 +1,24 @@
+/*
+Date: 11 June, 2024
+Author: Rachel Anchan
+
+WAP for using constructors.
+*/
+
+#include<iostream.h>
+#include<conio.h>
+class student
+{
+	public:
+	student()
+	{
+		cout<<"This is my new constructor";
+	}
+};
+
+void main()
+{       
+	clrscr();
+	student obj;
+	getch();
+}

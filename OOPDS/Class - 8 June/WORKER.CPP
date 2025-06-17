@@ -1,0 +1,52 @@
+/*
+Date: 8 June, 2024
+Author: Rachel Anchan
+
+WAP in C++ to create a class: worker
+Member variables: 
+	1. name
+	2. hours
+	3. salary
+*/
+
+#include<iostream.h>
+#include<conio.h>
+class worker
+{	
+			long int salary, hours, payrate;
+			char name[20];
+	
+			public:
+			void accept()
+			{
+				cin>>name;
+				cin>>hours;
+				cin>>payrate;
+				salary=hours*payrate;
+			}
+			
+			void display()
+			{
+				cout<<"Name: "<<name<<endl;
+				cout<<"Salary: "<<salary<<endl;
+			}
+};
+
+void main()
+			{
+				clrscr();
+				int n, i;
+				worker obj[100];
+				
+				cout<<"Enter the number of workers: "<<endl;
+				cin>>n;
+				
+				for(i=0;i<n;i++)
+					{
+						cout<<"Enter worker name, hours worked and payrate: \n"<<endl;
+
+						obj[i].accept();
+						obj[i].display();
+					}	
+				getch();	
+			}

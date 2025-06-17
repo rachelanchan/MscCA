@@ -1,0 +1,35 @@
+/*
+Date: 12 June, 2024
+Author: Rachel Anchan
+
+WAP for using the friend function.
+
+NOT IN SYLLABUS
+*/
+
+#include<iostream.h>
+#include<conio.h>
+class Box
+{
+	private:
+		int length;
+	
+	public:
+		Box():length(0){}
+		friend int printLength(Box); //friend function
+};
+
+int printLength(Box b)
+{
+	b.length+=10;
+	return b.length;
+}
+
+int main()
+{       
+	clrscr();
+	Box b;
+	cout<<"Length: "<<printLength(10)<<endl;
+
+	getch();
+}

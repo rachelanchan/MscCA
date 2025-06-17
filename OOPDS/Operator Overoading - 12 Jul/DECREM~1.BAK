@@ -1,0 +1,41 @@
+/*
+Date: 12 Jul, 2024
+Author: Rachel Anchan
+
+WAP for operator overloading in c++ using decrement.
+*/
+
+#include<iostream.h>
+#include<conio.h>
+class test
+{
+
+    int num;
+    public:
+    test()
+    {
+	num=8;
+    }
+
+void operator--()
+{
+ num=num-2;
+}
+
+void print()
+{
+    cout<<num;
+}
+
+};
+void main()
+{ 
+	
+	test obj;
+    clrscr(); // after declaration
+    --obj;
+	obj.print();
+	
+	getch();
+	
+}

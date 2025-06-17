@@ -1,0 +1,51 @@
+/*
+Date: 25 June, 2024
+Author: Rachel Anchan
+
+WAP to solve the scope resolution operation using the diamod problem.
+
+IMPORTANT FOR INTERVIEW
+*/
+
+#include<iostream.h>
+#include<conio.h>
+class base
+{	
+	public:
+	int x;
+};
+
+class c1: public base
+{		
+	public:
+	int y;
+};
+
+class c2: public base
+{       
+	public:
+	int z;
+};
+
+class derived: public c1, public c2
+{
+	public:
+	int sum;
+};
+
+void main()
+{ 
+	clrscr();
+	derived o1;
+	o1.c1::x=5;
+	o1.y=10;
+	o1.z=15;
+	
+	o1.sum=o1.c1::x+o1.y+o1.z;
+	
+	cout<<"Sum :"<<o1.sum<<endl;
+	
+	getch();
+	
+}
+	

@@ -1,0 +1,35 @@
+/*
+Date: 12 June, 2024
+Author: Rachel Anchan
+
+WAP for using all string functions.
+*/
+
+#include<iostream.h>
+#include<conio.h>
+#include<string.h>
+
+void main()
+{
+	clrscr();
+
+	char str1[10], str2[10] ;
+	cout<<"Enter string 1: "<<endl;
+	cin>>str1;
+
+	cout<<"Enter string 2: "<<endl;
+	cin>>str2;
+
+	cout<<"String Length: "<<strlen(str1)<<endl;
+	
+	strcpy(str1,str2);
+	cout<<"String Copy: "<<str1<<endl;
+	
+	
+	strcat(str1,str2);
+	cout<<"String Concat: "<<s1<<endl;
+	
+
+
+	getch();
+}

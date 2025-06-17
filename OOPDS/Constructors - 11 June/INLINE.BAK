@@ -1,0 +1,29 @@
+/*
+Date: 11 June, 2024
+Author: Rachel Anchan
+
+WAP to calculate area of a circle, area of a rectangle and area of a triangle using constructor overloading.
+*/
+
+#include<iostream.h>
+#include<conio.h>
+
+	inline int cube(int s)
+	{
+		return s*s*s;
+	}
+	
+	inline int square(int r)
+	{
+		return r*r;
+	}
+	
+int main()
+{       
+	clrscr();
+	cout<<"The cube of 3 is: "<<cube(3)<<endl;
+	cout<<"The square of 5 is: "<<cube(5)<<endl;
+
+	
+	getch();
+}

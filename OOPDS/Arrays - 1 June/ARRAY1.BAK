@@ -1,0 +1,33 @@
+/*
+Date: 1 June, 2024
+Author: Rachel Anchan
+
+WAP to display: 1!+2!+3!+......
+*/
+
+#include<iostream.h>
+#include<conio.h>
+void main()
+{       
+	clrscr();
+	int arr[10],i;
+	
+	cout<<"Enter the array elements: "<<endl;
+	
+	for (i=1; i<=num; i++)
+	{	
+			cin>>arr[i];
+ 
+	}
+	
+	cout<<"The array elements: "<<endl;
+	
+	for (i=1; i<=num; i++)
+	{	
+			cout<<" "<<arr[i];
+ 
+	}
+	
+	getch();
+}
+
