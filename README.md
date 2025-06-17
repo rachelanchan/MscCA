@@ -13,4 +13,6 @@ Subjects and Topics:
 - Design of Content Management System
 - DevOps
 - Python Programming
+- Object-Oriented Analysis and Design 
+- Object-Oriented Programming and Data Structures
 - Web UI and Content Management
