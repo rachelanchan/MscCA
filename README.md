@@ -3,8 +3,8 @@
 This repository serves as an archive for the academic work completed during Msc. (CA) - SICSR
 
 Editors and Contributors:
-- Jonathan 
-- Rachel
+- [Jonathan](https://github.com/jonathandpenha1)
+- [Rachel](https://github.com/rachelanchan)  
 
 Subjects and Topics:
 - C Programming
