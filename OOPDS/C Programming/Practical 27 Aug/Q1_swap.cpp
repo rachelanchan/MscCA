@@ -1,8 +1,6 @@
 /*
 Date: 27 Aug, 2024
 Author: Rachel Anchan
-PRN: 23030142013
-
 Q1: WAP to accept 2 numbers and swap the numbers without using a 3rd variable.
 */
 

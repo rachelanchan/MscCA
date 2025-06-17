@@ -1,7 +1,6 @@
 /*
 Date: 27 Aug, 2024
 Author: Rachel Anchan
-PRN: 23030142013
 
 Q6: WAP in C++ to create a class product with data members pid, pname, qty, price.
 Write a member function to accept and display product information. 

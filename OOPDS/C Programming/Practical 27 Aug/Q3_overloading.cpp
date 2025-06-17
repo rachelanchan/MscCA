@@ -1,7 +1,6 @@
 /*
 Date: 27 Aug, 2024
 Author: Rachel Anchan
-PRN: 23030142013
 
 Q3: WAP to perform addition of 2 integers, float and double number using 
 function overloading in C++.

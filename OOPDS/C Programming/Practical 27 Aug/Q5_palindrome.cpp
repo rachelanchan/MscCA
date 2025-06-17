@@ -1,7 +1,6 @@
 /*
 Date: 27 Aug, 2024
 Author: Rachel Anchan
-PRN: 23030142013
 
 Q5: WAP to accept a string and check whether the gievn string is palindrome.
 */
